@@ -1,5 +1,5 @@
 <?php
-Class DbWarga {
+class DbWarga {
     public function __construct()
     {
         $dbhost = "localhost";
@@ -53,18 +53,6 @@ Class DbWarga {
         $query->execute();
         return $query->rowCount();
     }
-
-    // public function update($kd_siswa,$nama_siswa,$kelas,$alamat){
-    //     $query = $this->db->prepare('UPDATE tb_siswa set nama_siswa=?,kelas=?,alamat=? where kd_siswa=?');
-        
-    //     $query->bindParam(1, $nama_siswa);
-    //     $query->bindParam(2, $kelas);
-    //     $query->bindParam(3, $alamat);
-    //     $query->bindParam(4, $kd_siswa);
- 
-    //     $query->execute();
-    //     return $query->rowCount();
-    // }
 
     public function delete($id_warga)
     {
