@@ -9,21 +9,6 @@ else
 {
     header('Location: index.php');
 }
-
-// if (isset($_POST["simpan_update"])) {
-//     $id = $_POST["id"];
-//     $nomor_ktp = $_POST["no_ktp"];
-//     $nama = $_POST["nama_lengkap"];
-//     $alamat = $_POST["alamat_lengkap"];
-//     $nomor_hp = $_POST["no_hp"];
-//     $tempatlahir = $_POST["tempat_lahir"];
-//     $queryupdate = $db->update_data($id,$nomor_ktp,$nama,$alamat,$nomor_hp,$tempatlahir);
-    
-//     if($queryupdate)
-//     {
-//         header('Location:index.php');
-//     }
-// }
 ?>
 
 
